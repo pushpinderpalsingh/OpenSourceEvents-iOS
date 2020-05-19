@@ -45,8 +45,8 @@
                                                         <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Open source events : 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fow-1Y-Vkc">
-                                                        <rect key="frame" x="8" y="149" width="398" height="26"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Open source events : 32" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="fow-1Y-Vkc">
+                                                        <rect key="frame" x="8" y="169.33333333333334" width="398" height="25.666666666666657"/>
                                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="16"/>
                                                         <color key="textColor" red="0.64912746259999998" green="0.15148895700000001" blue="0.086460092729999993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -56,11 +56,12 @@
                                                 <constraints>
                                                     <constraint firstItem="bGL-Kv-LN4" firstAttribute="leading" secondItem="oa0-7Z-FOm" secondAttribute="leading" constant="8" id="0oq-Zm-kzX"/>
                                                     <constraint firstAttribute="trailing" secondItem="Q2E-qc-Obt" secondAttribute="trailing" constant="8" id="1i4-uX-9ra"/>
-                                                    <constraint firstAttribute="bottom" secondItem="fow-1Y-Vkc" secondAttribute="bottom" constant="20" id="5ht-gu-QJa"/>
+                                                    <constraint firstAttribute="bottom" secondItem="fow-1Y-Vkc" secondAttribute="bottom" id="5ht-gu-QJa"/>
                                                     <constraint firstItem="Q2E-qc-Obt" firstAttribute="leading" secondItem="bGL-Kv-LN4" secondAttribute="trailing" constant="8" id="CbB-ab-gd5"/>
                                                     <constraint firstAttribute="trailing" secondItem="Ftv-jd-h9C" secondAttribute="trailing" id="DeL-cY-NeK"/>
                                                     <constraint firstItem="Ftv-jd-h9C" firstAttribute="top" secondItem="oa0-7Z-FOm" secondAttribute="top" id="Na5-ht-Msa"/>
                                                     <constraint firstItem="fow-1Y-Vkc" firstAttribute="leading" secondItem="oa0-7Z-FOm" secondAttribute="leading" constant="8" id="QXs-VL-n6g"/>
+                                                    <constraint firstItem="fow-1Y-Vkc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Q2E-qc-Obt" secondAttribute="bottom" constant="20" id="QaD-Ka-uUJ"/>
                                                     <constraint firstItem="Ftv-jd-h9C" firstAttribute="leading" secondItem="oa0-7Z-FOm" secondAttribute="leading" id="UM9-e3-UhH"/>
                                                     <constraint firstAttribute="trailing" secondItem="fow-1Y-Vkc" secondAttribute="trailing" constant="8" id="XPp-fU-cZY"/>
                                                     <constraint firstItem="Q2E-qc-Obt" firstAttribute="top" secondItem="oa0-7Z-FOm" secondAttribute="top" constant="8" id="g4x-gd-icg"/>
@@ -73,6 +74,7 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="student" translatesAutoresizingMaskIntoConstraints="NO" id="VKp-Gh-488">
                                                         <rect key="frame" x="75" y="8" width="40" height="40"/>
+                                                        <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="Bvo-lD-0oK"/>
                                                             <constraint firstAttribute="height" constant="40" id="UOj-z4-eOA"/>
@@ -88,25 +90,27 @@
                                                     </imageView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jFz-8T-lVv">
                                                         <rect key="frame" x="8" y="56" width="195" height="261"/>
-                                                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="261" id="VeN-oJ-hmG"/>
                                                             <constraint firstAttribute="width" constant="195" id="avP-jd-1Eq"/>
                                                         </constraints>
-                                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <string key="text">Open Source
+The term open source refers to something people can modify and share because its design is publicly accessible. Open source projects, products, or initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development.</string>
+                                                        <color key="textColor" red="0.0" green="0.13356748187597586" blue="0.22011369083913046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vjg-3s-y0P">
                                                         <rect key="frame" x="211" y="56" width="195" height="261"/>
-                                                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="261" id="GKC-3H-bQt"/>
                                                             <constraint firstAttribute="width" constant="195" id="jHM-M5-QU7"/>
                                                         </constraints>
-                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <string key="text">Hackathon
+A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of hacking marathon) is a design sprint-like event; often, in which computer programmers and others involved in software development, including graphic designers, interface designers, project managers, domain experts, and others collaborate intensively on software projects.</string>
+                                                        <color key="textColor" red="0.1494140625" green="0.034322826602480101" blue="0.028513634689582977" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
@@ -129,7 +133,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dtS-Rf-8uP">
                                                 <rect key="frame" x="0.0" y="520" width="414" height="260"/>
                                                 <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OIF-V3-mHN">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="- open source events :" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OIF-V3-mHN">
                                                         <rect key="frame" x="8" y="43" width="398" height="209"/>
                                                         <color key="backgroundColor" red="1" green="0.70196078431372544" blue="0.29803921568627451" alpha="0.029999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -164,7 +168,7 @@
                                                     </imageView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu," textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VQ2-vO-hb5">
                                                         <rect key="frame" x="166" y="8" width="240" height="151"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <color key="backgroundColor" red="1" green="0.52941176470588236" blue="0.20000000000000001" alpha="0.027158911671924291" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="151" id="Bto-Bg-AEO"/>
                                                             <constraint firstAttribute="width" constant="240" id="v74-Fv-VWa"/>
@@ -181,7 +185,7 @@
                                                         <color key="shadowColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="1" green="0.53036136347438001" blue="0.19803985326811957" alpha="0.031681289432176657" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="1" green="0.52941176470588236" blue="0.20000000000000001" alpha="0.031681289432176657" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="H9e-oh-m24" secondAttribute="trailing" constant="8" id="3IG-Db-ShE"/>
                                                     <constraint firstItem="6Lt-TG-vb1" firstAttribute="leading" secondItem="of6-Uf-TGW" secondAttribute="leading" constant="8" id="Bnv-cb-a86"/>
@@ -253,6 +257,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="I8G-UI-IQ3"/>
                     <size key="freeformSize" width="414" height="1300"/>
+                    <connections>
+                        <outlet property="currentMonth" destination="OIF-V3-mHN" id="DxK-VZ-50E"/>
+                        <outlet property="hackathonDefi" destination="Vjg-3s-y0P" id="zLn-pq-nMa"/>
+                        <outlet property="numofevents" destination="fow-1Y-Vkc" id="PO0-ss-2W7"/>
+                        <outlet property="sourceDefi" destination="jFz-8T-lVv" id="ptn-Bi-yrO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCg-UD-fD6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
