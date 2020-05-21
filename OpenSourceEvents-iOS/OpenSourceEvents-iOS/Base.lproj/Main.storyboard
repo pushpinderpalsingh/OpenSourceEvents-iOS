@@ -188,7 +188,7 @@ A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of ha
                                                         <rect key="frame" x="65" y="121" width="284" height="30"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMC-O2-xm7">
-                                                                <rect key="frame" x="12.666666666666671" y="0.0" width="41" height="30"/>
+                                                                <rect key="frame" x="76.666666666666657" y="0.0" width="41" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="30" id="L2S-fI-bUI"/>
                                                                     <constraint firstAttribute="width" constant="41" id="L7C-XO-Ex7"/>
@@ -209,13 +209,13 @@ A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of ha
                                                                     <action selector="githubButtonPressed:" destination="vZU-sq-s80" eventType="touchUpInside" id="HIf-09-xVK"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvQ-cT-z20">
-                                                                <rect key="frame" x="220.66666666666669" y="-2" width="49" height="35"/>
+                                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvQ-cT-z20">
+                                                                <rect key="frame" x="166.66666666666666" y="-2" width="30" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="35" id="Fgk-wc-5Qc"/>
-                                                                    <constraint firstAttribute="width" constant="49" id="zMo-iy-0Cb"/>
+                                                                    <constraint firstAttribute="width" constant="30" id="JN9-Fd-Nah"/>
                                                                 </constraints>
-                                                                <state key="normal" image="linkedin"/>
+                                                                <state key="normal" backgroundImage="linkedin"/>
                                                                 <connections>
                                                                     <action selector="linkedinButtonPressed:" destination="vZU-sq-s80" eventType="touchUpInside" id="eFh-7A-wDc"/>
                                                                 </connections>
@@ -224,12 +224,12 @@ A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of ha
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="bottom" secondItem="Kbv-Pd-TcM" secondAttribute="bottom" id="9Lo-8p-cpM"/>
-                                                            <constraint firstItem="Kbv-Pd-TcM" firstAttribute="leading" secondItem="zMC-O2-xm7" secondAttribute="trailing" constant="69" id="CfY-jf-f3j"/>
+                                                            <constraint firstItem="Kbv-Pd-TcM" firstAttribute="leading" secondItem="zMC-O2-xm7" secondAttribute="trailing" constant="5" id="CfY-jf-f3j"/>
                                                             <constraint firstItem="Kbv-Pd-TcM" firstAttribute="centerX" secondItem="30e-3n-7HZ" secondAttribute="centerX" id="Hdd-OV-BPU"/>
                                                             <constraint firstItem="zvQ-cT-z20" firstAttribute="top" secondItem="30e-3n-7HZ" secondAttribute="top" constant="-2" id="L80-q0-PVF"/>
                                                             <constraint firstItem="zMC-O2-xm7" firstAttribute="top" secondItem="30e-3n-7HZ" secondAttribute="top" id="YnP-du-RIa"/>
                                                             <constraint firstItem="Kbv-Pd-TcM" firstAttribute="top" secondItem="30e-3n-7HZ" secondAttribute="top" id="fxW-Gh-zHQ"/>
-                                                            <constraint firstItem="zvQ-cT-z20" firstAttribute="leading" secondItem="Kbv-Pd-TcM" secondAttribute="trailing" constant="59" id="tci-JL-UhR"/>
+                                                            <constraint firstItem="zvQ-cT-z20" firstAttribute="leading" secondItem="Kbv-Pd-TcM" secondAttribute="trailing" constant="5" id="tci-JL-UhR"/>
                                                             <constraint firstAttribute="bottom" secondItem="zvQ-cT-z20" secondAttribute="bottom" constant="-3" id="u5V-Im-ARP"/>
                                                             <constraint firstAttribute="bottom" secondItem="zMC-O2-xm7" secondAttribute="bottom" id="zP8-SX-F0x"/>
                                                         </constraints>
