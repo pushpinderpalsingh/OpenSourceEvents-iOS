@@ -184,16 +184,70 @@ A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of ha
                                                         <nil key="highlightedColor"/>
                                                         <color key="shadowColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="30e-3n-7HZ">
+                                                        <rect key="frame" x="65" y="121" width="284" height="30"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMC-O2-xm7">
+                                                                <rect key="frame" x="12.666666666666671" y="0.0" width="41" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="30" id="L2S-fI-bUI"/>
+                                                                    <constraint firstAttribute="width" constant="41" id="L7C-XO-Ex7"/>
+                                                                </constraints>
+                                                                <state key="normal" image="ic_email"/>
+                                                                <connections>
+                                                                    <action selector="mailButtonPressed:" destination="vZU-sq-s80" eventType="touchUpInside" id="c0f-kE-TeN"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbv-Pd-TcM">
+                                                                <rect key="frame" x="122.66666666666666" y="0.0" width="39" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="39" id="Ddj-KT-Apd"/>
+                                                                    <constraint firstAttribute="height" constant="30" id="fED-3z-Hok"/>
+                                                                </constraints>
+                                                                <state key="normal" image="github"/>
+                                                                <connections>
+                                                                    <action selector="githubButtonPressed:" destination="vZU-sq-s80" eventType="touchUpInside" id="HIf-09-xVK"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvQ-cT-z20">
+                                                                <rect key="frame" x="220.66666666666669" y="-2" width="49" height="35"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="Fgk-wc-5Qc"/>
+                                                                    <constraint firstAttribute="width" constant="49" id="zMo-iy-0Cb"/>
+                                                                </constraints>
+                                                                <state key="normal" image="linkedin"/>
+                                                                <connections>
+                                                                    <action selector="linkedinButtonPressed:" destination="vZU-sq-s80" eventType="touchUpInside" id="eFh-7A-wDc"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="Kbv-Pd-TcM" secondAttribute="bottom" id="9Lo-8p-cpM"/>
+                                                            <constraint firstItem="Kbv-Pd-TcM" firstAttribute="leading" secondItem="zMC-O2-xm7" secondAttribute="trailing" constant="69" id="CfY-jf-f3j"/>
+                                                            <constraint firstItem="Kbv-Pd-TcM" firstAttribute="centerX" secondItem="30e-3n-7HZ" secondAttribute="centerX" id="Hdd-OV-BPU"/>
+                                                            <constraint firstItem="zvQ-cT-z20" firstAttribute="top" secondItem="30e-3n-7HZ" secondAttribute="top" constant="-2" id="L80-q0-PVF"/>
+                                                            <constraint firstItem="zMC-O2-xm7" firstAttribute="top" secondItem="30e-3n-7HZ" secondAttribute="top" id="YnP-du-RIa"/>
+                                                            <constraint firstItem="Kbv-Pd-TcM" firstAttribute="top" secondItem="30e-3n-7HZ" secondAttribute="top" id="fxW-Gh-zHQ"/>
+                                                            <constraint firstItem="zvQ-cT-z20" firstAttribute="leading" secondItem="Kbv-Pd-TcM" secondAttribute="trailing" constant="59" id="tci-JL-UhR"/>
+                                                            <constraint firstAttribute="bottom" secondItem="zvQ-cT-z20" secondAttribute="bottom" constant="-3" id="u5V-Im-ARP"/>
+                                                            <constraint firstAttribute="bottom" secondItem="zMC-O2-xm7" secondAttribute="bottom" id="zP8-SX-F0x"/>
+                                                        </constraints>
+                                                    </view>
                                                 </subviews>
                                                 <color key="backgroundColor" red="1" green="0.52941176470588236" blue="0.20000000000000001" alpha="0.031681289432176657" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
+                                                    <constraint firstItem="30e-3n-7HZ" firstAttribute="top" secondItem="of6-Uf-TGW" secondAttribute="top" constant="121" id="18p-MA-9vW"/>
                                                     <constraint firstAttribute="trailing" secondItem="H9e-oh-m24" secondAttribute="trailing" constant="8" id="3IG-Db-ShE"/>
+                                                    <constraint firstItem="30e-3n-7HZ" firstAttribute="centerX" secondItem="H9e-oh-m24" secondAttribute="centerX" id="AUT-5O-Kuc"/>
                                                     <constraint firstItem="6Lt-TG-vb1" firstAttribute="leading" secondItem="of6-Uf-TGW" secondAttribute="leading" constant="8" id="Bnv-cb-a86"/>
+                                                    <constraint firstItem="30e-3n-7HZ" firstAttribute="leading" secondItem="of6-Uf-TGW" secondAttribute="leading" constant="65" id="Nhr-X7-sDy"/>
                                                     <constraint firstItem="6Lt-TG-vb1" firstAttribute="top" secondItem="of6-Uf-TGW" secondAttribute="top" constant="8" id="WRz-jA-z5d"/>
                                                     <constraint firstItem="H9e-oh-m24" firstAttribute="leading" secondItem="of6-Uf-TGW" secondAttribute="leading" constant="8" id="bM6-1T-ugK"/>
                                                     <constraint firstItem="VQ2-vO-hb5" firstAttribute="top" secondItem="of6-Uf-TGW" secondAttribute="top" constant="8" id="g8y-MZ-MuR"/>
                                                     <constraint firstAttribute="bottom" secondItem="H9e-oh-m24" secondAttribute="bottom" constant="8" id="gf2-EC-a8u"/>
                                                     <constraint firstItem="VQ2-vO-hb5" firstAttribute="leading" secondItem="6Lt-TG-vb1" secondAttribute="trailing" constant="10" id="jOY-ns-Cdf"/>
+                                                    <constraint firstItem="H9e-oh-m24" firstAttribute="top" secondItem="30e-3n-7HZ" secondAttribute="bottom" constant="15" id="s2d-U0-Pfi"/>
                                                     <constraint firstAttribute="trailing" secondItem="VQ2-vO-hb5" secondAttribute="trailing" constant="8" id="sJ5-Sb-rk6"/>
                                                 </constraints>
                                             </view>
@@ -479,7 +533,10 @@ A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of ha
     </scenes>
     <resources>
         <image name="assignment.gif" width="107" height="92"/>
+        <image name="github" width="1600" height="1600"/>
+        <image name="ic_email" width="128" height="128"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="linkedin" width="512" height="512"/>
         <image name="orgLogo" width="642" height="418"/>
         <image name="photo_2020-05-18_22-46-35" width="1280" height="1280"/>
         <image name="student" width="128" height="128"/>
