@@ -40,5 +40,20 @@ class FirstPageUIController: UIViewController {
         
     }
 
-
+    @IBAction func mailButtonPressed(_ sender: UIButton) {
+        if let url = URL(string: "mailto:catalystSMVD@hotmail.com") {
+            UIApplication.shared.open(url)
+        }
+    }
+    @IBAction func githubButtonPressed(_ sender: UIButton) {
+        if let url = URL(string: "https://github.com/Catalyst-SMVD") {
+                   UIApplication.shared.open(url)
+               }
+    }
+    
+    @IBAction func linkedinButtonPressed(_ sender: UIButton) {
+        if let url = URL(string: "https://www.linkedin.com/company/catalyst-smvd/") {
+            UIApplication.shared.open(url)
+        }
+    }
 }
