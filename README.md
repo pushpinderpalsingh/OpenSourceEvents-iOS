@@ -38,5 +38,9 @@ This will give you an exact copy of the current remote, make sure you don't have
  
 You can reach the maintainers and our community on [Catalyst-discord](https://discord.gg/dHtDhHa). If you are interested in contributing to the OpenSourceEvents-iOS, we have a dedicated stream for this project [#OpenSourceEvents-iOS](https://discord.gg/9wmvkGW), where you can ask questions and interact with the community, join with us!
 
+## License
+
+The project is licensed under the MIT License. Learn more about it in the [LICENSE](https://github.com/Catalyst-CSE/OpenSourceEvents-iOS/blob/master/LICENSE) file.
+
 💜 **Thanks**
 Thanks to our many contributors.
