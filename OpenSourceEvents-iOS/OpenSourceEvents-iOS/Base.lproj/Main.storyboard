@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2H5-K2-ze8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2H5-K2-ze8">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -316,6 +316,7 @@ A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of ha
                         <outlet property="hackathonDefi" destination="Vjg-3s-y0P" id="zLn-pq-nMa"/>
                         <outlet property="numofevents" destination="fow-1Y-Vkc" id="PO0-ss-2W7"/>
                         <outlet property="sourceDefi" destination="jFz-8T-lVv" id="ptn-Bi-yrO"/>
+                        <outlet property="titleName" destination="Q2E-qc-Obt" id="h5k-gv-bCA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCg-UD-fD6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -507,6 +508,7 @@ A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of ha
                     <navigationItem key="navigationItem" id="VKj-SE-vrq"/>
                     <connections>
                         <outlet property="gifview" destination="UmK-lo-mGq" id="Z8b-ml-YMj"/>
+                        <outlet property="titleName" destination="BGE-bA-Kxa" id="auJ-Zn-U8q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pni-IO-Y68" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
